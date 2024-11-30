@@ -1,0 +1,52 @@
+:root {
+    --purple: #6c63ff;
+    --light-purple: #f3e9ff;
+    --dark-gray: #333;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: var(--light-purple);
+    margin: 0;
+    color: var(--dark-gray);
+}
+
+h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--purple);
+}
+
+.navbar {
+    background: #fff;
+}
+
+.nav-link:hover {
+    color: var(--purple);
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background: var(--dark-gray);
+    color: #fff;
+}
+
+.gap-4 {
+    gap: 1.5rem;
+}
