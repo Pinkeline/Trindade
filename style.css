@@ -44,9 +44,25 @@ img {
 
 footer {
     background: var(--dark-gray);
-    color: #fff;
+    color: #3a0730;
 }
 
 .gap-4 {
     gap: 1.5rem;
+}
+
+/* Estilo para a section #sobre */
+#sobre .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse; 
+}
+
+#sobre img {
+    max-width: 90%;
+}
+
+#sobre div {
+    max-width: 50%;
 }
